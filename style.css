@@ -1,0 +1,280 @@
+/* ---------- font family -----------------  */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700;900&display=swap");
+
+/* ---------- / font family -----------------  */
+
+
+/* ---------------global-------------------- */
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.green {
+    border: #09f200 solid 1px;
+    border: 50%;
+}
+
+.heading {
+    text-decoration: line-through;
+    text-decoration-color: #09f200;
+}
+
+p {
+    font-size: 1.15em;
+}
+
+.c {
+    color: #09f200;
+}
+
+.menu {
+    animation: example 7s eas;
+}
+
+@keyframes example {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 50px;
+    }
+}
+
+
+/* ---------------/ global-------------------- */
+
+
+/* --------------------------navigation ----------------------- */
+
+.navigation-back {
+    background-color:  #36454F !important;
+    z-index: 100;
+}
+
+.navigation nav a:hover {
+    color: #09f200;
+}
+
+.navigation .logo {
+    font-size: 2rem;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.navigation .talk {
+    border: #09f200 solid 1px !important;
+    border-radius: 0px;
+    color: #09f200;
+    border: none;
+    padding: 5px 10px;
+}
+
+.navigation .talk:hover {
+    background-color: #09f200;
+    color: white;
+}
+
+.navigation .menu i {
+    font-size: 25px;
+    color: white;
+}
+
+.navigation #toggler a:hover {
+    color: #09f200;
+}
+
+.navigation .menu i:hover {
+    color: #09f200;
+}
+
+
+/* --------------------------/ navigation ----------------------- */
+
+
+/* -----------------header------------------- */
+
+.headback {
+    background-color:  #36454F;
+}
+
+.header .profile-container {
+    width: 100%;
+}
+
+.header .profile {
+    /* border-radius: 50%; */
+    width: 100%;
+}
+
+.header .links span {
+    margin: 0px 10px;
+}
+
+.header .links i {
+    font-size: 25px;
+}
+
+.header .links span i:hover {
+    color: #09f200;
+}
+
+
+/* -----------------/ header------------------- */
+
+
+/* --------------------about -------------------- */
+
+.aboutback {
+    background-color: #232B2B;
+}
+
+.about .aprofile-container {
+    width: 100%;
+}
+
+
+/* * --------------------/about -------------------- */
+
+
+/* -----------------------skills ---------------------- */
+
+#skills h4:hover {
+    color: #09f200;
+}
+
+.skillback {
+    background-color: #36454F ;
+}
+
+
+/* -----------------------/ skills ---------------------- */
+
+
+/* ----------------------------Projects ----------------------- */
+
+.projects {
+    background-color: #232B2B;
+}
+
+.projects .cards {
+    background-color: #0a1540;
+    border-radius: 5px;
+}
+
+.projects p {
+    font-size: 0.8em;
+}
+
+.projects .fas:hover {
+    color: #09f200;
+}
+
+.projects .more {
+    border: #09f200 solid 1px !important;
+    border-radius: 0px;
+    color: #09f200;
+    border: none;
+    padding: 5px 10px;
+}
+
+.projects .more:hover {
+    background-color: #09f200;
+    color: white;
+}
+
+
+/* ----------------------------/ Projects ----------------------- */
+
+
+/* ------------------------------Contact us ----------------------- */
+
+.contactus {
+    background-color: #36454F ;
+}
+
+.contactus .name,
+.email,
+.text-area {
+    background-color: #111d52;
+    border: none;
+    border-bottom: #09f200 solid 1px;
+    color: white;
+    width: 100%;
+}
+
+.contactus .name:focus,
+.email:focus,
+.text-area:focus {
+    background-color: #0a1540;
+    border: none;
+    border-bottom: #09f200 solid 1px;
+    color: white;
+}
+
+.contactus .contact-card {
+    background-color: #111d52;
+}
+
+.contactus .contact-card .form {
+    width: 100%;
+}
+
+.contactus .contact-card .send {
+    border: #09f200 solid 1px;
+    border-radius: 0px;
+    color: #09f200;
+}
+
+.contactus .contact-card .send:hover {
+    border: none;
+    background-color: #09f200;
+    border-radius: 0px;
+    color: white;
+}
+
+.copy p {
+    font-size: 0.7em;
+}
+
+.copy p a {
+    text-decoration: underline;
+    text-decoration-color: #09f200;
+}
+
+
+/* ------------------------------/Contact us ----------------------- */
+
+
+/* media query  */
+
+.navigation .menu-toggle {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .navigation #toggler {
+        display: none !important;
+    }
+}
+
+
+/* / media query  */

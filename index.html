@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+
+</head>
+
+<body>
+    <!-- navigation -->
+    <div class="container-fluid position-fixed navigation navigation-back" data-aos="fade-down">
+        <div class="container py-3 navigation">
+            <nav class="d-flex align-items-center justify-content-between">
+                <!-- logo    -->
+                <div class="col logo">
+                    <b><a href=""><span class="c">H</span>S </a></b>
+                </div>
+                <ul class="col ml-auto justify-content-end align-items-center d-none d-md-flex">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#about-me">About-Me</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li>
+                        <a href="#contact"><button class="talk btn">Let's Talk</button></a>
+                    </li>
+                </ul>
+
+                <div class="menu d-block d-md-none" onclick="toggle()">
+                    <span class="btn " id="toggle-button"><i class="fas fa-bars"></i></span></i>
+                </div>
+            </nav>
+            <div class="text-center py-5 menu-toggle" id="toggler">
+                <div class="py-1"><a href="#intro">Intro</a></div>
+                <div class="py-1"><a href="#about-me">About-Me</a></div>
+                <div class="py-1"><a href="#skill">Skills</a></div>
+                <div class="py-1"><a href="#project">Projects</a></div>
+                <div class="py-1"><a href="#contact">Let's Talk</a></div>
+            </div>
+        </div>
+    </div>
+    <!-- /navigation -->
+    <!-- header  -->
+    <!-- Intro -->
+    <div class="container-fluid px-5 headback py-5 header" id="intro">
+        <!-- Intro -->
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-md-6 pt-5 d-flex align-items-center" data-aos="fade-right">
+                    <div>
+                        <h1>
+                            <b>Hello<span class="c"></span></b>
+                        </h1>
+                        <h1>
+                            I'm <span class="c"><b>Himanshu Sharma</b></span>
+                        </h1>
+                        <p>Fresher(Web-Developer)</p>
+                        <div class="d-flex links align-items-center">
+                            <span>
+                                <a href="https://github.com/Hsharma41126/" target="_black"><i
+                                        class="fab fa-github"></i></a></span>
+                            <span>
+                                <a href="https://www.linkedin.com/in/himanshu-sharma-690b20207/" target="_black"><i class="fab fa-linkedin-in"></i></a></span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 pt-5 d-flex align-items-end justify-content-center">
+                    <div class="profile-container" data-aos="fade-down">
+                        <img class="profile" src="developer.svg" alt="illustration" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Intro -->
+    <!-- /header  -->
+    <!-- about  -->
+    <div class="container-fluid py-5 aboutback about" id="about-me">
+        <div class="container py-5">
+            <h2 class="text-center" data-aos="fade-down">
+                <span class="heading">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+                <b><span class="c" id="notline">A</span>bout</b>
+                <span class="heading">&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </h2>
+            <div class="row py-5">
+                <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right">
+                    <div>
+                        <h3>
+                            <b>Hello, World!</b>
+                        </h3>
+                        <br />
+                        <p>
+                            I’m Himanshu Sharma, a
+                            <span class="c">Web Developer</span>. I'm from Indore, India. Being comfortable with code allows me to rapidly
+                            prototype and validate experiences.
+                        </p>
+                        <p>
+                            In my spare time I like to code cool stuff, explore new tools and Like hiking & tracking
+                            and. I love to visiting new places and Taste delecious food.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center" data-aos="fade-left">
+                    <img class="aprofile" src="IMG_20230726_111840.png" alt="a person image" width="60%" />
+                </div>
+            </div>
+            <div class="line green"></div>
+        </div>
+    </div>
+    <!-- /about  -->
+    <!-- skills  -->
+    <div class="container-fluid skillback py-5" id="skill">
+        <div class="container py-5">
+            <h2 class="text-center" data-aos="fade-down">
+                <span class="heading">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+                <b><span class="c">S</span>kills <span class="c">I</span> Kno<span class="c">w</span></b>
+                <span class="heading">&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </h2>
+            <div class="row text-center skills py-5 d-flex" id="skills">
+                <div class="col-lg-2 my-3 col-md-3 mx-auto" data-aos="fade-down">
+                    <h4><i class="fab fa-github"></i> &nbsp;<b>Github</b></h4>
+                </div>
+                <div class="col-lg-2 my-3 col-md-3 mx-auto" data-aos="fade-down">
+                    <h4><i class="fab fa-html5"></i>&nbsp;<b>HTML</b></h4>
+                </div>
+                <div class="col-lg-2 my-3 col-md-3 mx-auto" data-aos="fade-down">
+                    <h4><i class="fab fa-css3-alt"></i>&nbsp;<b>CSS</b></h4>
+                </div>
+                <div class="col-lg-2 my-3 col-md-3 mx-auto" data-aos="fade-down">
+                    <h4>
+                        <i class="fab fa-js"></i>
+                        <b>Javascript</b>
+                    </h4>
+                </div>
+                <div class="col-lg-2 my-3 col-md-3 mx-auto" data-aos="fade-down">
+                    <h4>
+                        <b>MERN Stack</b>
+                    </h4>
+                </div>
+                <div class="col-lg-2 my-3 col-md-3 mx-auto" data-aos="fade-down">
+                    <h4><b>C</b></h4>
+                </div>
+                <div class="col-lg-2 my-3 col-md-3 mx-auto" data-aos="fade-down">
+                    <h4><b>C++</b></h4>
+                </div>
+                <div class="col-lg-2 my-3 col-md-3 mx-auto" data-aos="fade-down">
+                    <h4>
+                        <i class="fab fa-python"></i>
+                        <b>Python</b>
+                    </h4>
+                </div>
+                <div class="col-lg-2 my-3 col-md-3 mx-auto" data-aos="fade-down">
+                    <h4>
+                        <i class="fab fa-bootstrap"></i>
+                        <b>Bootstrap</b>
+                    </h4>
+                </div>
+                <div class="col-lg-2 my-3 col-md-3 mx-auto" data-aos="fade-down">
+                    <h4>
+                        <i class="fab fa-java"></i>
+                        <b>Java</b>
+                    </h4>
+                </div>
+                <!-- <div class="col-lg-2 col-md-3 my-3 d-lg-block d-none"></div> -->
+                <div class="col-lg-2 my-3 col-md-3 mx-auto" data-aos="fade-down">
+                    <h4>
+                        <b>Mongo DB</b>
+                    </h4>
+                </div>
+                <div class="col-lg-2 my-3 col-md-3 d-lg-block d-none"></div>
+            </div>
+            <h4 class="text-center pt-3" data-aos="fade-up">
+                <q>
+                    <span class="c"><b>P</b></span>rofessionalism means consistency of <span
+                        class="c"><b>Quality</b></span>.
+                </q>
+            </h4>
+        </div>
+    </div>
+    <!-- /skills  -->
+    <!-- projects  -->
+    <div class="container-fluid projects py-5" id="project">
+        <div class="container py-5">
+            <h2 class="text-center" data-aos="fade-down">
+                <span class="heading">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+                <b><span class="c">P</span>rojects</b>
+                <span class="heading">&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </h2>
+            <div class="row py-5">
+                <div class="col-lg-3 py-3" data-aos="fade-down">
+                    <div class="cards">
+                        <div class="p-2 text-center">
+                            <img src="Screenshot (91).png" width="100%" alt="" />
+                            <br />
+                            <br />
+                            <h5>
+                                <b><span class="c">A</span>mazon Clone</b> &nbsp;
+                                
+                            </h5>
+                            <p>
+                                Demo of amozon website.
+                            </p>
+                            <p>html css js bootstrap</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 py-3" data-aos="fade-down">
+                    <div class="cards">
+                        <div class="p-2 text-center">
+                            <img src="Screenshot (92).png" width="100%" alt="" />
+                            <br />
+                            <br />
+                            <h5>
+                                <b><span class="c">L</span>anding Page</b> &nbsp;
+                                
+                            </h5>
+                            <p>School Landing Page</p>
+                            <p>Using Html Css Js</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 py-3" data-aos="fade-down">
+                    <div class="cards">
+                        <div class="p-2 text-center">
+                            <img src="Screenshot (94).png" width="100%" alt="" />
+                            <br />
+                            <br />
+                            <h5>
+                                <b><span class="c">M</span>usic website</b> &nbsp;
+                                
+                            </h5>
+                            <p>Listen and keep calm your mood</p>
+                            <p>html css Js</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 py-3" data-aos="fade-down">
+                    <div class="cards">
+                        <div class="p-2 text-center">
+                            <img src="Screenshot (93).png" width="100%" alt="" />
+                            <br />
+                            <br />
+                            <h5>
+                                <b><span class="c">P</span>hoto Gallery website</b> &nbsp;
+                                
+                            </h5>
+                            <p>
+                                Know your Nature 
+                            </p>
+                            <p>html css Js</p>
+                        </div>
+                    </div>
+                </div>
+
+    <div class="container-fluid py-5 contactus" id="contact">
+        <div class="container py-5">
+            <h2 class="text-center" data-aos="fade-down">
+                <span class="heading">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+                <b><span class="c">L</span>et's Talk</b>
+                <span class="heading">&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </h2>
+            <div class="row py-5">
+                <div class="col-md-7 my-3 d-flex align-items-center justify-content-center" data-aos="fade-down">
+                    <img src="contact.svg" alt="" width="90%" />
+                </div>
+                <div class="col-md-5 my-3 contact-card d-flex align-items-center" data-aos="fade-up">
+                    <div class="m-3 form" data-aos="fade-down">
+                        <h4 class="text-center">
+                            <b><span class="c">G</span>et in Touch</b>
+                        </h4>
+                        <form action="#">
+                            <div class="py-3">
+                                <label for="Name">Name</label> <br />
+                                <input class="name my-1" type="text" />
+                            </div>
+                            <div class="py-3">
+                                <label for="email">E-mail</label> <br />
+                                <input class="email my-1" type="email" />
+                            </div>
+                            <div class="py-3">
+                                <label for="Textarea">Your message</label> <br />
+                                <textarea class="text-area my-1" name="text-area" id=""></textarea>
+                            </div>
+                            <div class="py-3">
+                                <button class="btn send px-3 py-2">send message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy text-center">
+            <p>
+                <span class="c">H</span>imanshu
+                <span class="c">S</span>harma. My Profile Page
+                <a href=""><span class="c"></span></a>
+            </p>
+        </div>
+    </div>
+    <!-- /contact-us  -->
+
+    <!-- script  -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1800,
+        });
+    </script>
+
+    <!-- / script  -->
+</body>
+
+</html>
